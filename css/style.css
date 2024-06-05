@@ -1,0 +1,32 @@
+body {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FFEBCD; 
+    text-align: center;
+}
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.custom-button {
+    padding: 100px 300px;
+    font-size: 24px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff; 
+    color: #fff; 
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    
+}
+
+
+.custom-button:hover {
+    background-color: #f3c702; 
+}
+
+
